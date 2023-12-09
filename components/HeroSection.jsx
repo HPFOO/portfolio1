@@ -3,8 +3,8 @@ import TypeWritter from "typewriter-effect";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-const HeroSection = () => {
 
+const HeroSection = () => {
     return (
         <main className="py-16 mt-16 md:flex md:shrink-0">
             <div className="grid grid-cols-1 md:grid-cols-12">
@@ -18,7 +18,7 @@ const HeroSection = () => {
                         <span className="text-white text-8xl">
                             Hello, I'm{" "}
                             <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                               HerrPinn
+                               HerrPinn  
                             </span>
                         </span>
                         <span className="text-7xl">
@@ -35,7 +35,7 @@ const HeroSection = () => {
                                         .typeString(`<span style="color:#9E7BFF">Security Analyst </span>`)
                                         .pauseFor(1500)
                                         .deleteAll()
-                                        .typeString(`<span style="color:#9E7BFF">CTF Player </span>`)
+                                        .typeString(`<span style="color:#893BFF">CTF Player </span>`)
                                         .pauseFor(1500)
                                         .deleteAll()
                                         .start();
@@ -59,12 +59,13 @@ const HeroSection = () => {
                 </motion.div>
                 <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-24">
                     <div className="w-[400px] h-[400px] relative z-0">
-                         <img
-                         src="/Hero-Section.png"
-                         alt="hero section"
-                         className="transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                         >
-                         </img>
+                        <img
+                        src="/Hero-Section.png"
+                        alt="hero section"
+                        className="transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        width={450}
+                        height={450}
+                        />
                     </div>
                 </div>
             </div>
