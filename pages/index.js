@@ -7,9 +7,11 @@ import EmailSection from "@/components/EmailSection";
 export default function Home(){
   return(
     <div className="flex min-h-screen flex-col">
+      <main>
       <HeroSection />
       <Project />
       <EmailSection/>
+      </main>
     </div>
   );
 }
