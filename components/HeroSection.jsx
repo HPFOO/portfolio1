@@ -29,10 +29,13 @@ const HeroSection = () => {
                                 }}
                                 onInit={(typewriter) => {
                                     typewriter
-                                        .typeString(`<span style="color:#FF77FF">CYB Student</span>`)
+                                        .typeString(`<span style="color:#FF77FF">CYB Student </span>`)
                                         .pauseFor(1500)
                                         .deleteAll()
-                                        .typeString(`<span style="color:#9E7BFF">gg </span>`)
+                                        .typeString(`<span style="color:#9E7BFF">Security Analyst </span>`)
+                                        .pauseFor(1500)
+                                        .deleteAll()
+                                        .typeString(`<span style="color:#9E7BFF">CTF Player </span>`)
                                         .pauseFor(1500)
                                         .deleteAll()
                                         .start();
@@ -47,7 +50,7 @@ const HeroSection = () => {
                             </Link>
                             
                             <Link 
-                                href={"https://www.google.com"}
+                                href={"https://drive.google.com/file/d/1Bul-iXsYbtq1gShF-XS5PogX9tSK00Po/view?usp=sharing"}
                                 className="px-6 inline-block py-3 rounded-full border-solid-2 border border-pink-500 hover:bg-pink">
                                     View My Resume
                             </Link>
