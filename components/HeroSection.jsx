@@ -40,11 +40,17 @@ const HeroSection = () => {
                             ></TypeWritter>
                         </span>
                         <p className="text-sky-200 mt-8 text-base sm:text-lg md:text-xl mb-6">Slide down to know more about me</p>
-                        <Link 
-                            href={"https://www.google.com"}
-                            className="px-6 inline-block py-3 rounded-full border-solid-2 border border-pink-500 hover:bg-pink">
-                                View My Resume
-                        </Link>
+                            <Link
+                            href="#projects" 
+                            className="px-12 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-indigo-600 hover:bg-violet-600">
+                            <span className="text-xl text-white">Projects</span>
+                            </Link>
+                            
+                            <Link 
+                                href={"https://www.google.com"}
+                                className="px-6 inline-block py-3 rounded-full border-solid-2 border border-pink-500 hover:bg-pink">
+                                    View My Resume
+                            </Link>
                         
                     </h1>
                 </motion.div>
