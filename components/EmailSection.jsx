@@ -25,10 +25,10 @@ const EmailSection = () => {
                         <Image src={LinkedinIcon} alt="Linkedin Icon" />
                     </Link>
                     <Link href="https://www.instagram.com/hrpn_3/" className="mt-1">
-                        <Image src={InstagramIcon}/>
+                        <Image src={InstagramIcon} alt="Instagram Icon"/>
                     </Link>
                     <Link href="mailto:herrpinn76@gmail.com" className="mt-1">
-                        <Image src={GmailIcon}/>
+                        <Image src={GmailIcon} alt= "Email Icon"/>
                     </Link>
 
                 </div>
